@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #000fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: block;
+    width: 40%;
+    margin: 0 30%;
+}
+
+.main h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.todo-form {
+    margin-bottom: 30px;
+}
+
+.todo-input {
+    width: 480px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todo-button {
+    font-size: 20px;
+    background-color: #e5ff00;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+
+.todo-row {
+    display: flex;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff0000;
+    width: 480px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+}
+
+.todo-text {
+    font-size: 20px;
+    display: block;
+    width: 400px;
+    text-align: center;
+}
+
+.icons {
+    font-size: 20px;
+    display: block;
+    width: 80px;
+    text-align: right;
+}
+
+.delete-icon {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.edit-icon {
+    cursor: pointer;
+}
+
+.complete {
+    background-color: #119400;
+}
+
+@media only screen and (max-width: 1180px) {
+    .main {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .main {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .main h1 {
+        font-size: 28px;
+    }
+
+    .todo-input {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .todo-button {
+        font-size: 15px;
+    }
+
+    .todo-row {
+        width: 250px;
+        margin: 10px auto;
+    }
+
+    .todo-text {
+        font-size: 15px;
+        width: 190px;
+    }
+
+    .icons {
+        font-size: 15px;
+        width: 60px;
+    }
+}
